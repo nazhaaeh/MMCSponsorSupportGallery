@@ -10,6 +10,7 @@ namespace Domain.Models
     public class Gallery
     {
         public Guid GalleryId { get; set; }
+
         public string imageGalleryPath { get; set; }
      
         public Guid SessionId { get; set; }

@@ -1,11 +1,11 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UplaodSponsorImage\3e89482e-d80f-4e59-896b-c7f77fcb036d_WhatsApp Image 2024-01-23 at 15.39.46.jpeg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UplaodSponsorImage\Img_Sponsor_733f77b3-4077-4079-9b4d-e3e119bf3d15.png))">
       <SourceType>Package</SourceType>
       <SourceId>MMCGallerySupportSponsor</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MMCGallerySupportSponsor</BasePath>
-      <RelativePath>UplaodSponsorImage/3e89482e-d80f-4e59-896b-c7f77fcb036d_WhatsApp Image 2024-01-23 at 15.39.46.jpeg</RelativePath>
+      <RelativePath>UplaodSponsorImage/Img_Sponsor_733f77b3-4077-4079-9b4d-e3e119bf3d15.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -14,14 +14,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UplaodSponsorImage\3e89482e-d80f-4e59-896b-c7f77fcb036d_WhatsApp Image 2024-01-23 at 15.39.46.jpeg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\UplaodSponsorImage\Img_Sponsor_733f77b3-4077-4079-9b4d-e3e119bf3d15.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploadsGallery\4d4f9255-a139-4891-9230-967fe0eb6d3f_WhatsApp Image 2024-01-23 at 15.15.06.jpeg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\Img_Sponsor_4dc308b0-0dda-47ee-911e-7c73fe2ff4ed.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>MMCGallerySupportSponsor</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MMCGallerySupportSponsor</BasePath>
-      <RelativePath>uploadsGallery/4d4f9255-a139-4891-9230-967fe0eb6d3f_WhatsApp Image 2024-01-23 at 15.15.06.jpeg</RelativePath>
+      <RelativePath>uploads/Img_Sponsor_4dc308b0-0dda-47ee-911e-7c73fe2ff4ed.pdf</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -30,14 +30,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploadsGallery\4d4f9255-a139-4891-9230-967fe0eb6d3f_WhatsApp Image 2024-01-23 at 15.15.06.jpeg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\Img_Sponsor_4dc308b0-0dda-47ee-911e-7c73fe2ff4ed.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploadsGallery\88d6e9de-60ba-443f-9a48-95b71cd40d66_WhatsApp Image 2024-01-23 at 15.39.46.jpeg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\Img_Support_4dc308b0-0dda-47ee-911e-7c73fe2ff4ed.docx))">
       <SourceType>Package</SourceType>
       <SourceId>MMCGallerySupportSponsor</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MMCGallerySupportSponsor</BasePath>
-      <RelativePath>uploadsGallery/88d6e9de-60ba-443f-9a48-95b71cd40d66_WhatsApp Image 2024-01-23 at 15.39.46.jpeg</RelativePath>
+      <RelativePath>uploads/Img_Support_4dc308b0-0dda-47ee-911e-7c73fe2ff4ed.docx</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -46,14 +46,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploadsGallery\88d6e9de-60ba-443f-9a48-95b71cd40d66_WhatsApp Image 2024-01-23 at 15.39.46.jpeg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\Img_Support_4dc308b0-0dda-47ee-911e-7c73fe2ff4ed.docx))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploadsGallery\c89861ff-4bf0-43d9-a8aa-747e401a9ce5_Divercty (1).png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\Img_Support_dc1a5cd4-7959-47ef-a645-601836e86c2d.docx))">
       <SourceType>Package</SourceType>
       <SourceId>MMCGallerySupportSponsor</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MMCGallerySupportSponsor</BasePath>
-      <RelativePath>uploadsGallery/c89861ff-4bf0-43d9-a8aa-747e401a9ce5_Divercty (1).png</RelativePath>
+      <RelativePath>uploads/Img_Support_dc1a5cd4-7959-47ef-a645-601836e86c2d.docx</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -62,7 +62,23 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploadsGallery\c89861ff-4bf0-43d9-a8aa-747e401a9ce5_Divercty (1).png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\Img_Support_dc1a5cd4-7959-47ef-a645-601836e86c2d.docx))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\Img_Support_dc1a5cd4-7959-47ef-a645-601836e86c2d.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>MMCGallerySupportSponsor</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MMCGallerySupportSponsor</BasePath>
+      <RelativePath>uploads/Img_Support_dc1a5cd4-7959-47ef-a645-601836e86c2d.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\Img_Support_dc1a5cd4-7959-47ef-a645-601836e86c2d.pdf))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

@@ -1,7 +1,9 @@
 C:\Users\dell\source\repos\API\MMCGallerySupportSponsor\Infrastrecture\bin\Debug\net7.0\Infrastrecture.deps.json
 C:\Users\dell\source\repos\API\MMCGallerySupportSponsor\Infrastrecture\bin\Debug\net7.0\Infrastrecture.dll
 C:\Users\dell\source\repos\API\MMCGallerySupportSponsor\Infrastrecture\bin\Debug\net7.0\Infrastrecture.pdb
+C:\Users\dell\source\repos\API\MMCGallerySupportSponsor\Infrastrecture\bin\Debug\net7.0\Application.dll
 C:\Users\dell\source\repos\API\MMCGallerySupportSponsor\Infrastrecture\bin\Debug\net7.0\Domain.dll
+C:\Users\dell\source\repos\API\MMCGallerySupportSponsor\Infrastrecture\bin\Debug\net7.0\Application.pdb
 C:\Users\dell\source\repos\API\MMCGallerySupportSponsor\Infrastrecture\bin\Debug\net7.0\Domain.pdb
 C:\Users\dell\source\repos\API\MMCGallerySupportSponsor\Infrastrecture\obj\Debug\net7.0\Infrastrecture.csproj.AssemblyReference.cache
 C:\Users\dell\source\repos\API\MMCGallerySupportSponsor\Infrastrecture\obj\Debug\net7.0\Infrastrecture.GeneratedMSBuildEditorConfig.editorconfig
@@ -13,5 +15,3 @@ C:\Users\dell\source\repos\API\MMCGallerySupportSponsor\Infrastrecture\obj\Debug
 C:\Users\dell\source\repos\API\MMCGallerySupportSponsor\Infrastrecture\obj\Debug\net7.0\refint\Infrastrecture.dll
 C:\Users\dell\source\repos\API\MMCGallerySupportSponsor\Infrastrecture\obj\Debug\net7.0\Infrastrecture.pdb
 C:\Users\dell\source\repos\API\MMCGallerySupportSponsor\Infrastrecture\obj\Debug\net7.0\ref\Infrastrecture.dll
-C:\Users\dell\source\repos\API\MMCGallerySupportSponsor\Infrastrecture\bin\Debug\net7.0\Application.dll
-C:\Users\dell\source\repos\API\MMCGallerySupportSponsor\Infrastrecture\bin\Debug\net7.0\Application.pdb

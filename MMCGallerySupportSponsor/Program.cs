@@ -1,6 +1,8 @@
 
+
 using Application.Interfaces;
 using Application.Mapper;
+using Application.SupportsCQRS.Queries;
 using Infrastrecture.Db;
 using Infrastrecture.Repositories;
 using Microsoft.AspNetCore.Hosting;
@@ -23,6 +25,8 @@ namespace MMCGallerySupportSponsor
             builder.Services.AddDbContext<DbContextApplication>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("dbconnection")));
             builder.Services.AddAutoMapper(typeof(MappingProfile));
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+            builder.Services.AddMediatR(x => x.RegisterServicesFromAssemblies(typeof(GetSupportQueryHandler).Assembly));
+            builder.Services.AddHttpContextAccessor();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -31,6 +35,7 @@ namespace MMCGallerySupportSponsor
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+            app.UseStaticFiles();
 
             app.UseHttpsRedirection();
 

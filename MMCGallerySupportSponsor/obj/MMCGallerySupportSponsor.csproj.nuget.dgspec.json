@@ -52,9 +52,21 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
-            "Microsoft.AspNetCore.Http.Features": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.AspNetCore": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[7.0.15, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -270,6 +282,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.12, )"

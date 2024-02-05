@@ -9,10 +9,12 @@ namespace Domain.Models
 {
     public class Support
     {
+
         public Guid SupportId { get; set; }
 
         public string Namesupport { get; set; }
         public string FilePath { get; set; }
+
         public Guid SessionId { get; set; }
     }
 }

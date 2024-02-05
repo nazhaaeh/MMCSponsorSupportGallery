@@ -1,20 +1,24 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\UplaodSponsorImage\\3e89482e-d80f-4e59-896b-c7f77fcb036d_WhatsApp Image 2024-01-23 at 15.39.46.jpeg",
-      "PackagePath": "staticwebassets\\UplaodSponsorImage\\3e89482e-d80f-4e59-896b-c7f77fcb036d_WhatsApp Image 2024-01-23 at 15.39.46.jpeg"
+      "Id": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\UplaodSponsorImage\\Img_Sponsor_733f77b3-4077-4079-9b4d-e3e119bf3d15.png",
+      "PackagePath": "staticwebassets\\UplaodSponsorImage\\Img_Sponsor_733f77b3-4077-4079-9b4d-e3e119bf3d15.png"
     },
     {
-      "Id": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploadsGallery\\4d4f9255-a139-4891-9230-967fe0eb6d3f_WhatsApp Image 2024-01-23 at 15.15.06.jpeg",
-      "PackagePath": "staticwebassets\\uploadsGallery\\4d4f9255-a139-4891-9230-967fe0eb6d3f_WhatsApp Image 2024-01-23 at 15.15.06.jpeg"
+      "Id": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploads\\Img_Sponsor_4dc308b0-0dda-47ee-911e-7c73fe2ff4ed.pdf",
+      "PackagePath": "staticwebassets\\uploads\\Img_Sponsor_4dc308b0-0dda-47ee-911e-7c73fe2ff4ed.pdf"
     },
     {
-      "Id": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploadsGallery\\88d6e9de-60ba-443f-9a48-95b71cd40d66_WhatsApp Image 2024-01-23 at 15.39.46.jpeg",
-      "PackagePath": "staticwebassets\\uploadsGallery\\88d6e9de-60ba-443f-9a48-95b71cd40d66_WhatsApp Image 2024-01-23 at 15.39.46.jpeg"
+      "Id": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploads\\Img_Support_4dc308b0-0dda-47ee-911e-7c73fe2ff4ed.docx",
+      "PackagePath": "staticwebassets\\uploads\\Img_Support_4dc308b0-0dda-47ee-911e-7c73fe2ff4ed.docx"
     },
     {
-      "Id": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploadsGallery\\c89861ff-4bf0-43d9-a8aa-747e401a9ce5_Divercty (1).png",
-      "PackagePath": "staticwebassets\\uploadsGallery\\c89861ff-4bf0-43d9-a8aa-747e401a9ce5_Divercty (1).png"
+      "Id": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploads\\Img_Support_dc1a5cd4-7959-47ef-a645-601836e86c2d.docx",
+      "PackagePath": "staticwebassets\\uploads\\Img_Support_dc1a5cd4-7959-47ef-a645-601836e86c2d.docx"
+    },
+    {
+      "Id": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploads\\Img_Support_dc1a5cd4-7959-47ef-a645-601836e86c2d.pdf",
+      "PackagePath": "staticwebassets\\uploads\\Img_Support_dc1a5cd4-7959-47ef-a645-601836e86c2d.pdf"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MMCGallerySupportSponsor.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -12,6 +12,11 @@ using Infrastrecture.Repositories;
 using Application.Interfaces;
 using Application.DTO;
 using Microsoft.IdentityModel.Tokens;
+using Application.SupportsCQRS.Queries;
+using Application.GalleryCQRS.Queries;
+using MediatR;
+using Application.SupportsCQRS.Commandes;
+using Application.GalleryCQRS.Commandes;
 
 namespace MMCGallerySupportSponsor.Controllers
 {
@@ -19,137 +24,67 @@ namespace MMCGallerySupportSponsor.Controllers
     [ApiController]
     public class GalleryController : ControllerBase
     {
-        private readonly IUnitOfWork _unitOfWork;
-        private readonly IMapper _mapper;
-        private readonly IWebHostEnvironment _webHostEnvironment;
-        public GalleryController(IUnitOfWork unitOfWork, IMapper mapper, IWebHostEnvironment webHostEnvironment)
+        private readonly IMediator _mediatR;
+
+        public GalleryController( IMediator mediatR)
         {
-            _unitOfWork = unitOfWork;
-            _mapper = mapper;
-            _webHostEnvironment = webHostEnvironment;
+             _mediatR = mediatR;
 
         }
         [HttpGet]
         public async Task<IActionResult> GetAllGallery()
         {
-            var gallery = await _unitOfWork.Gallery.GetAllAsync();
-            var galleryDto = _mapper.Map<IEnumerable<GalleryDto>>(gallery);
-    
-            return Ok(galleryDto);
+            var Query = new GetGalleryQueryRequest();
+            var result = await _mediatR.Send(Query);
+            return Ok(result);
         }
+
         [HttpGet ("{id}")]
         public async Task<IActionResult> GetGalleryById(Guid id )
         {
-            var gallery = await _unitOfWork.Gallery.GetByIdAsync(id);
-            if(gallery == null)
-            {
-                return NotFound();
-            }
-            var gallyDto = _mapper.Map<GalleryDto>(gallery);
-            return Ok(gallery);
+            var Query = new GetBydSponsorQueryRequest();
+            Query.id = id;
+            var result = await _mediatR.Send(Query);
+            return Ok(result);
 
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateGallery([FromForm] GalleryCreateDto createDto)
+        public async Task<IActionResult> Creategallery([FromForm] GalleryCreateDto createDto)
         {
-            if (createDto.GalleryFile != null && createDto.GalleryFile.Length >= 10 * 1024 * 1024)
-            {
-                return BadRequest("Ce fichier depasse 10 Mo ");
+            var Commandes = new  CreateGalleryCommandeRequest(createDto);
 
-            }
-            var AcceptedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
-            var FileExtentions = Path.GetExtension(createDto.GalleryFile.FileName).ToLower();
-            if (!AcceptedExtensions.Contains(FileExtentions))
-            {
-                return BadRequest("Le format du fichier n'est pas autorisé. Veuillez choisir un fichier .jpg, .jpeg, .png, .gif ");
-
-            }
-            var gallery = _mapper.Map<Gallery>(createDto);
-           
-
-
-            if (createDto.GalleryFile != null && createDto.GalleryFile.FileName != null)
-            {
-                var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "uploadsGallery");
-                if (!Directory.Exists(uploadsFolder))
-                {
-                    Directory.CreateDirectory(uploadsFolder);
-                }
-                var uniqueFileName = Guid.NewGuid().ToString() + "_" + createDto.GalleryFile.FileName;
-                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
-
-                using (var fileStream = new FileStream(filePath, FileMode.Create))
-                {
-                    await createDto.GalleryFile.CopyToAsync(fileStream);
-                }
-
-                gallery.imageGalleryPath = filePath;
-            }
-            _unitOfWork.Gallery.AddAsync(gallery);
-            await _unitOfWork.SaveAsync();
-
-
-             var galleryDto = _mapper.Map<Gallery>(gallery);
-
-
-            return CreatedAtAction(nameof(GetGalleryById), new { id = galleryDto.GalleryId }, galleryDto);
+            var result = await _mediatR.Send(Commandes);
+            return Ok(result);
 
         }
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteGallery( Guid id)
+        public async Task<IActionResult> GalleryDelete(Guid id)
         {
-            var exestingGallery = await _unitOfWork.Gallery.GetByIdAsync(id);
-            if (exestingGallery == null)
+            var command = new DeleteGalleryCommandeRequest
             {
-                return NotFound();
-            }
-            if (!string.IsNullOrEmpty(exestingGallery.imageGalleryPath))
-            {
-                System.IO.File.Delete(exestingGallery.imageGalleryPath);
-                
-            }
-            _unitOfWork.Gallery.Remove(exestingGallery);
-            await _unitOfWork.SaveAsync();
-            return Ok("Image deleted!");
+                Id = id
+            };
 
+            await _mediatR.Send(command);
+
+            return Ok("It's deleted");
         }
-        [HttpPut ("{id}")]
-        public async Task<IActionResult> UpdateGallery(Guid id , [FromForm] GalleryUpdateDto updateDto)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateGallery(Guid id, [FromForm] GalleryUpdateDto updateDto)
         {
-            var existingSupport = await _unitOfWork.Gallery.GetByIdAsync(id);
+            var command = new UpdateGalleryCommandeRequest
+            {
+                GalleryId = id,
+                GalleryUpdateRequest = updateDto
+            };
 
-            if (existingSupport == null)
+            var updatedGalleryDto = await _mediatR.Send(command);
+
+            if (updatedGalleryDto == null)
             {
                 return NotFound();
             }
-
-            // Supprimer l'ancien fichier PDF s'il existe
-            if (!string.IsNullOrEmpty(existingSupport.imageGalleryPath))
-            {
-                System.IO.File.Delete(existingSupport.imageGalleryPath);
-            }
-
-            // Enregistrer le nouveau fichier PDF s'il est fourni
-            if (updateDto.GalleryFile != null)
-            {
-                var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "uploadsGallery");
-                var uniqueFileName = Guid.NewGuid().ToString() + "_" + updateDto.GalleryFile.FileName;
-                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
-
-                using (var fileStream = new FileStream(filePath, FileMode.Create))
-                {
-                    await updateDto.GalleryFile.CopyToAsync(fileStream);
-                }
-
-                existingSupport.imageGalleryPath = filePath;
-            }
-
-
-            _mapper.Map(updateDto, existingSupport);
-
-            _unitOfWork.Gallery.Update(existingSupport);
-            await _unitOfWork.SaveAsync();
 
             return NoContent();
         }
