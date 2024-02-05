@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\UplaodSponsorImage\\Img_Sponsor_0384ba8f-733d-41bc-88cc-2ef28122352c.jpeg",
+      "PackagePath": "staticwebassets\\UplaodSponsorImage\\Img_Sponsor_0384ba8f-733d-41bc-88cc-2ef28122352c.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\UplaodSponsorImage\\Img_Sponsor_5ceca6e3-9b8d-4206-8977-14f94e50af2e.jpeg",
+      "PackagePath": "staticwebassets\\UplaodSponsorImage\\Img_Sponsor_5ceca6e3-9b8d-4206-8977-14f94e50af2e.jpeg"
+    },
+    {
       "Id": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploadsGallery\\Img_Gallery_0c33ecba-e319-4633-91db-af6834a34586.jpeg",
       "PackagePath": "staticwebassets\\uploadsGallery\\Img_Gallery_0c33ecba-e319-4633-91db-af6834a34586.jpeg"
     },

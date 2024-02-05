@@ -42,7 +42,7 @@ namespace MMCGallerySupportSponsor.Controllers
         [HttpGet ("{id}")]
         public async Task<IActionResult> GetGalleryById(Guid id )
         {
-            var Query = new GetBydSponsorQueryRequest();
+            var Query = new  GetByIdGalleryQueryRequest();
             Query.id = id;
             var result = await _mediatR.Send(Query);
             return Ok(result);

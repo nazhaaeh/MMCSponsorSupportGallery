@@ -56,13 +56,8 @@ namespace MMCGallerySupportSponsor.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> SponsorDelete(Guid id)
         {
-            var command = new DeleteSponsorCommandeRequest
-            {
-                Id = id
-            };
-
+            var command = new DeleteSponsorCommandeRequest { Id = id };
             await _mediatR.Send(command);
-
             return Ok("It's deleted");
         }
         [HttpPut("{id}")]

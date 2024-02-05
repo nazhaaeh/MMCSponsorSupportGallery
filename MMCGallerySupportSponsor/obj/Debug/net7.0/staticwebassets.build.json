@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "L3ZRUCSnSfb/pL/CrQ7wjd/HR9OQl8klUJTHo6pcb60=",
+  "Hash": "hXUAu00PtUBOXofWwhZM9hWzlD7ttJ0P5FPlPvEH3NU=",
   "Source": "MMCGallerySupportSponsor",
   "BasePath": "_content/MMCGallerySupportSponsor",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\UplaodSponsorImage\\Img_Sponsor_0384ba8f-733d-41bc-88cc-2ef28122352c.jpeg",
+      "SourceId": "MMCGallerySupportSponsor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\",
+      "BasePath": "_content/MMCGallerySupportSponsor",
+      "RelativePath": "UplaodSponsorImage/Img_Sponsor_0384ba8f-733d-41bc-88cc-2ef28122352c.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UplaodSponsorImage\\Img_Sponsor_0384ba8f-733d-41bc-88cc-2ef28122352c.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\UplaodSponsorImage\\Img_Sponsor_5ceca6e3-9b8d-4206-8977-14f94e50af2e.jpeg",
+      "SourceId": "MMCGallerySupportSponsor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\",
+      "BasePath": "_content/MMCGallerySupportSponsor",
+      "RelativePath": "UplaodSponsorImage/Img_Sponsor_5ceca6e3-9b8d-4206-8977-14f94e50af2e.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UplaodSponsorImage\\Img_Sponsor_5ceca6e3-9b8d-4206-8977-14f94e50af2e.jpeg"
+    },
     {
       "Identity": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploadsGallery\\Img_Gallery_0c33ecba-e319-4633-91db-af6834a34586.jpeg",
       "SourceId": "MMCGallerySupportSponsor",

@@ -36,7 +36,6 @@ namespace Application.SponsorCQRS.Commandes
                 return null;
             }
             var ImagName = $"Img_Sponsor_{existingSponsor.SponsorId}";
-            Console.WriteLine("ImagName ///" + ImagName);
             var ImagExten = Path.GetExtension(request.SponsorUpdateRequest.SponsorImage.FileName);
             // Supprimer l'ancien fichier image s'il existe
             if (!string.IsNullOrEmpty(existingSponsor.ImagesponsorPath))
@@ -57,9 +56,8 @@ namespace Application.SponsorCQRS.Commandes
                     await request.SponsorUpdateRequest.SponsorImage.CopyToAsync(fileStream);
                 }
 
-              
-                existingSponsor.ImagesponsorPath = $"{hosturl}/uploads/{ImagName}{ImagExten}";
-
+           
+                existingSponsor.ImagesponsorPath = $"{hosturl}/UplaodSponsorImage/{ImagName}{ImagExten}";
 
             }
 
