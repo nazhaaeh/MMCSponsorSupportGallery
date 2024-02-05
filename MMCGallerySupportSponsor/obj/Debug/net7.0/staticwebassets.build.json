@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5fMOSHDQ6jKZ7QvyNxeFnm+5enYwPB6xM7IBLEKlvJM=",
+  "Hash": "L3ZRUCSnSfb/pL/CrQ7wjd/HR9OQl8klUJTHo6pcb60=",
   "Source": "MMCGallerySupportSponsor",
   "BasePath": "_content/MMCGallerySupportSponsor",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\UplaodSponsorImage\\Img_Sponsor_733f77b3-4077-4079-9b4d-e3e119bf3d15.png",
+      "Identity": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploadsGallery\\Img_Gallery_0c33ecba-e319-4633-91db-af6834a34586.jpeg",
       "SourceId": "MMCGallerySupportSponsor",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\",
       "BasePath": "_content/MMCGallerySupportSponsor",
-      "RelativePath": "UplaodSponsorImage/Img_Sponsor_733f77b3-4077-4079-9b4d-e3e119bf3d15.png",
+      "RelativePath": "uploadsGallery/Img_Gallery_0c33ecba-e319-4633-91db-af6834a34586.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,15 +31,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UplaodSponsorImage\\Img_Sponsor_733f77b3-4077-4079-9b4d-e3e119bf3d15.png"
+      "OriginalItemSpec": "wwwroot\\uploadsGallery\\Img_Gallery_0c33ecba-e319-4633-91db-af6834a34586.jpeg"
     },
     {
-      "Identity": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploads\\Img_Sponsor_4dc308b0-0dda-47ee-911e-7c73fe2ff4ed.pdf",
+      "Identity": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploadsGallery\\Img_Gallery_0c33ecba-e319-4633-91db-af6834a34586.jpg",
       "SourceId": "MMCGallerySupportSponsor",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\",
       "BasePath": "_content/MMCGallerySupportSponsor",
-      "RelativePath": "uploads/Img_Sponsor_4dc308b0-0dda-47ee-911e-7c73fe2ff4ed.pdf",
+      "RelativePath": "uploadsGallery/Img_Gallery_0c33ecba-e319-4633-91db-af6834a34586.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -48,15 +48,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\Img_Sponsor_4dc308b0-0dda-47ee-911e-7c73fe2ff4ed.pdf"
+      "OriginalItemSpec": "wwwroot\\uploadsGallery\\Img_Gallery_0c33ecba-e319-4633-91db-af6834a34586.jpg"
     },
     {
-      "Identity": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploads\\Img_Support_4dc308b0-0dda-47ee-911e-7c73fe2ff4ed.docx",
+      "Identity": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploadsGallery\\Img_Gallery_0c33ecba-e319-4633-91db-af6834a34586.png",
       "SourceId": "MMCGallerySupportSponsor",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\",
       "BasePath": "_content/MMCGallerySupportSponsor",
-      "RelativePath": "uploads/Img_Support_4dc308b0-0dda-47ee-911e-7c73fe2ff4ed.docx",
+      "RelativePath": "uploadsGallery/Img_Gallery_0c33ecba-e319-4633-91db-af6834a34586.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,41 +65,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\Img_Support_4dc308b0-0dda-47ee-911e-7c73fe2ff4ed.docx"
-    },
-    {
-      "Identity": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploads\\Img_Support_dc1a5cd4-7959-47ef-a645-601836e86c2d.docx",
-      "SourceId": "MMCGallerySupportSponsor",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\",
-      "BasePath": "_content/MMCGallerySupportSponsor",
-      "RelativePath": "uploads/Img_Support_dc1a5cd4-7959-47ef-a645-601836e86c2d.docx",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\Img_Support_dc1a5cd4-7959-47ef-a645-601836e86c2d.docx"
-    },
-    {
-      "Identity": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploads\\Img_Support_dc1a5cd4-7959-47ef-a645-601836e86c2d.pdf",
-      "SourceId": "MMCGallerySupportSponsor",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\",
-      "BasePath": "_content/MMCGallerySupportSponsor",
-      "RelativePath": "uploads/Img_Support_dc1a5cd4-7959-47ef-a645-601836e86c2d.pdf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\Img_Support_dc1a5cd4-7959-47ef-a645-601836e86c2d.pdf"
+      "OriginalItemSpec": "wwwroot\\uploadsGallery\\Img_Gallery_0c33ecba-e319-4633-91db-af6834a34586.png"
     }
   ]
 }

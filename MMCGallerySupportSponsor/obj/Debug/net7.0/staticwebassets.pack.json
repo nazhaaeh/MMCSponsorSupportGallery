@@ -1,24 +1,16 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\UplaodSponsorImage\\Img_Sponsor_733f77b3-4077-4079-9b4d-e3e119bf3d15.png",
-      "PackagePath": "staticwebassets\\UplaodSponsorImage\\Img_Sponsor_733f77b3-4077-4079-9b4d-e3e119bf3d15.png"
+      "Id": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploadsGallery\\Img_Gallery_0c33ecba-e319-4633-91db-af6834a34586.jpeg",
+      "PackagePath": "staticwebassets\\uploadsGallery\\Img_Gallery_0c33ecba-e319-4633-91db-af6834a34586.jpeg"
     },
     {
-      "Id": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploads\\Img_Sponsor_4dc308b0-0dda-47ee-911e-7c73fe2ff4ed.pdf",
-      "PackagePath": "staticwebassets\\uploads\\Img_Sponsor_4dc308b0-0dda-47ee-911e-7c73fe2ff4ed.pdf"
+      "Id": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploadsGallery\\Img_Gallery_0c33ecba-e319-4633-91db-af6834a34586.jpg",
+      "PackagePath": "staticwebassets\\uploadsGallery\\Img_Gallery_0c33ecba-e319-4633-91db-af6834a34586.jpg"
     },
     {
-      "Id": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploads\\Img_Support_4dc308b0-0dda-47ee-911e-7c73fe2ff4ed.docx",
-      "PackagePath": "staticwebassets\\uploads\\Img_Support_4dc308b0-0dda-47ee-911e-7c73fe2ff4ed.docx"
-    },
-    {
-      "Id": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploads\\Img_Support_dc1a5cd4-7959-47ef-a645-601836e86c2d.docx",
-      "PackagePath": "staticwebassets\\uploads\\Img_Support_dc1a5cd4-7959-47ef-a645-601836e86c2d.docx"
-    },
-    {
-      "Id": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploads\\Img_Support_dc1a5cd4-7959-47ef-a645-601836e86c2d.pdf",
-      "PackagePath": "staticwebassets\\uploads\\Img_Support_dc1a5cd4-7959-47ef-a645-601836e86c2d.pdf"
+      "Id": "C:\\Users\\dell\\source\\repos\\API\\MMCGallerySupportSponsor\\MMCGallerySupportSponsor\\wwwroot\\uploadsGallery\\Img_Gallery_0c33ecba-e319-4633-91db-af6834a34586.png",
+      "PackagePath": "staticwebassets\\uploadsGallery\\Img_Gallery_0c33ecba-e319-4633-91db-af6834a34586.png"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MMCGallerySupportSponsor.Microsoft.AspNetCore.StaticWebAssets.props",
